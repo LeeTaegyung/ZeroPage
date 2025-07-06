@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import SearchBar from "@components/SearchBar/SearchBar";
 import TodoList from "@components/TodoList/TodoList";
-import Clock from "@components/Clock/Clock";
+import Today from "@components/Today/Today";
 
 const DashboardWrap = styled.div`
   display: flex;
@@ -20,7 +20,7 @@ const Dashboard = () => {
   return (
     <DashboardWrap>
       <DashboardInner>
-        <Clock />
+        <Today />
         <SearchBar />
         <TodoList />
       </DashboardInner>
