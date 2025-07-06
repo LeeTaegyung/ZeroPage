@@ -69,9 +69,17 @@ export const globalStyles = css`
     padding: 0;
     font: inherit;
     box-sizing: border-box;
+    outline: none;
   }
 
   body {
     font-family: "S-CoreDream", serif;
+  }
+
+  button {
+    border: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
   }
 `;
